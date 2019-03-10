@@ -5,28 +5,27 @@ InitStdDevs = .1, .1, .3, .1, .1, .3, .05
 # Process noise model
 # note that the process covariance matrix is diag(pow(QStd,2))*dtIMU
 
-QPosXYStd =.03 
-# 0.03 .05 .01
-QPosZStd = .05
-QVelXYStd =.15 
-# .05  0.1  0.2
-QVelZStd =.1 
-# .05  .1
-QYawStd = .25 
-#.15  0.25 .08
+QPosXYStd = .01
+#.01 original .05
+QPosZStd = .01
+# .05 
+QVelXYStd = .15
+# .2 original .05 .15
+QVelZStd = .1 
+# original .1 
+QYawStd = 0.12
+# .28 80% orignal .05 .08 62% - 0.05 0.20
 
 # GPS measurement std deviations
-GPSPosXYStd = 70 
-# 1
-GPSPosZStd = 25 
-# 100 300 3
+GPSPosXYStd = 1
+# orignal 1 70
+GPSPosZStd = 3
+# orignal 3 25
 GPSVelXYStd = .1
-# .1
 GPSVelZStd = .3
-# .3
 # Magnetometer
-MagYawStd = .1  
-# 0.2575  .116
+MagYawStd = 0.1
+# .116 0.1  7.114059 0.3  7.074043 0.03 0.45 
 
 dtIMU = 0.002
 attitudeTau = 100
