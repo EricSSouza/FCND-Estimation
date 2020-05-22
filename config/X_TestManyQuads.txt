@@ -20,7 +20,8 @@ Quad.ControlType = QuadControl
 Quad.ControlConfig = QuadControlParams
 
 # reference trajectory
-QuadControlParams.Trajectory=traj/FigureEightFF.txt
+# QuadControlParams.Trajectory=traj/FigureEightFF.txt
+QuadControlParams.Trajectory=traj/NewSpiralNoFF.txt
 
 # graphing commands
 Commands.1=AddGraph1.Sim.DrawTime
